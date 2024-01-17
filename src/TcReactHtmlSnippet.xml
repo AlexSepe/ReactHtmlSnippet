@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="truechange.tcreacthtmlsnippet.TcReactHtmlSnippet" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Tc React Html Snippet</name>
+    <description>Inject external HTML/JS in Mendix with Context</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="InnerHtml" type="textTemplate" required="true" multiline="true">
+                <caption>Inner Html</caption>
+                <description>Html Content to be executed dynamically </description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
