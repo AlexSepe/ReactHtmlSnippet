@@ -3,7 +3,7 @@ import { TcReactHtmlSnippetPreviewProps } from "../typings/TcReactHtmlSnippetPro
 
 export class preview extends Component<TcReactHtmlSnippetPreviewProps> {
     render(): ReactNode {
-        return <div />;
+        return <div>Empty Preview</div>;
     }
 }
 
