@@ -11,6 +11,7 @@
             <property key="InnerHtml" type="textTemplate" required="true" multiline="true">
                 <caption>Inner Html</caption>
                 <description>Html Content to be executed dynamically </description>
+                <!-- <returnType type="String" /> -->
             </property>
         </propertyGroup>
     </properties>

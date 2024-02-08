@@ -6,9 +6,10 @@ import "./ui/TcReactHtmlSnippet.css";
 
 export class TcReactHtmlSnippet extends Component<TcReactHtmlSnippetContainerProps> {
     render(): ReactNode {
+        const htmlContent = this.props.InnerHtml.value || "Loading...";
         return (
             <div className={this.props.class} style={this.props.style}>
-                <InnerHTML html={this.props.InnerHtml.value || ""} />
+                <InnerHTML html={htmlContent} />
             </div>
         );
     }
