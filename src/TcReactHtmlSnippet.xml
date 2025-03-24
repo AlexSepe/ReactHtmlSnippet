@@ -8,9 +8,15 @@
     <icon/>
     <properties>
         <propertyGroup caption="General">
-            <property key="InnerHtml" type="textTemplate" required="true" multiline="true">
+            <property key="InnerHtml" type="textTemplate" required="false" multiline="true">
                 <caption>Inner Html</caption>
                 <description>Html Content to be executed dynamically </description>
+                <!-- <returnType type="String" /> -->
+            </property>
+
+            <property key="InnerHtmlStatic" type="string" required="false" multiline="true">
+                <caption>Inner Html Static</caption>
+                <description>Html Content to be executed dynamically : String sem template usar aqui</description>
                 <!-- <returnType type="String" /> -->
             </property>
         </propertyGroup>

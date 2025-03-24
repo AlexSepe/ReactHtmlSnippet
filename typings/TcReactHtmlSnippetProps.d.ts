@@ -11,7 +11,8 @@ export interface TcReactHtmlSnippetContainerProps {
     class: string;
     style?: CSSProperties;
     tabIndex?: number;
-    InnerHtml: DynamicValue<string>;
+    InnerHtml?: DynamicValue<string>;
+    InnerHtmlStatic: string;
 }
 
 export interface TcReactHtmlSnippetPreviewProps {
@@ -23,5 +24,8 @@ export interface TcReactHtmlSnippetPreviewProps {
     style: string;
     styleObject?: CSSProperties;
     readOnly: boolean;
+    renderMode: "design" | "xray" | "structure";
+    translate: (text: string) => string;
     InnerHtml: string;
+    InnerHtmlStatic: string;
 }
